@@ -10,6 +10,7 @@
 </head>
 <body>
     @include('bread')
+    @include('partials.carrousel')
     <h2>Jean</h2>
 
 <script src="{{asset('js/app.js')}}"></script>

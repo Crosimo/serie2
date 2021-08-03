@@ -10,7 +10,12 @@
 </head>
 <body>
     @include('bread')
+
     <h1>Nom</h1>
+    <div style="w-100">
+        @include('partials.carrousel')
+    </div>
+
 
 <script src="{{asset('js/app.js')}}"></script>
 </body>
